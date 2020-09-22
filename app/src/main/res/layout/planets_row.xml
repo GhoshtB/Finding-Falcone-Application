@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_margin="@dimen/dimen_5"
+    app:cardElevation="@dimen/dimen_3"
+    app:cardCornerRadius="@dimen/dimen_5"
+    >
+
+    <ImageView
+        android:id="@+id/ivCheck"
+        android:layout_gravity="start"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="gone"
+        android:src="@drawable/ic_baseline_check_24"/>
+
+   <LinearLayout
+       android:id="@+id/llPlanets"
+       android:layout_width="match_parent"
+       android:layout_height="match_parent"
+       android:orientation="vertical"
+       >
+
+       <ImageView
+           android:padding="@dimen/dimen_5"
+           android:layout_width="@dimen/dimen_160"
+           android:layout_height="@dimen/dimen_160"
+           android:id="@+id/ivPlanet"
+           android:src="@drawable/ic_donlon"/>
+
+       <TextView
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:id="@+id/tvPlanet"
+           android:fontFamily="@font/poppins"
+           android:padding="@dimen/dimen_5"
+           android:textSize="@dimen/text_size_large"
+           android:layout_gravity="center_horizontal"/>
+       <TextView
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:id="@+id/tvDistance"
+           android:fontFamily="@font/poppins"
+           android:padding="@dimen/dimen_5"
+           android:textSize="@dimen/text_size_small"
+           android:layout_gravity="center_horizontal"/>
+   </LinearLayout>
+
+</androidx.cardview.widget.CardView>

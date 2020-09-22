@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.fragment.PlanetsFragment">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/poppins"
+        android:text="Select Vehicles"
+        android:id="@+id/tvPlanets"
+        android:textColor="@android:color/holo_orange_dark"
+        android:padding="@dimen/dimen_5"
+        android:gravity="center"
+        android:textSize="@dimen/text_size_extra_large"
+        android:layout_gravity="center_horizontal"/>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/rvPlanets"
+        android:layout_below="@id/tvPlanets"
+        android:padding="@dimen/dimen_5"/>
+
+    <Button
+        android:id="@+id/btnSubmit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_margin="@dimen/dimen_5"
+        android:text="Submit"
+        android:textColor="@android:color/white"
+        android:background="@android:color/holo_orange_light"/>
+</RelativeLayout>

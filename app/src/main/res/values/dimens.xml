@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="dimen_5">5dp</dimen>
+    <dimen name="text_size_large">17sp</dimen>
+    <dimen name="text_size_small">13sp</dimen>
+    <dimen name="dimen_60">60dp</dimen>
+    <dimen name="dimen_160">160dp</dimen>
+    <dimen name="dimen_3">3dp</dimen>
+    <dimen name="text_size_extra_large">22sp</dimen>
+    <dimen name="dimen_10">10dp</dimen>
+</resources>
